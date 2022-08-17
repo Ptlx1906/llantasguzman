@@ -633,8 +633,8 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
-  height: 550px;
-  padding-top: 100px;
+  height: 650px;
+  padding-top: 120px;
 }
 .specials .nav-tabs {
   border: 0;
