@@ -1,0 +1,80 @@
+form {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: solid 1px #c2c2c2;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin: auto;
+  background: #0C0B09;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+input[type=textfield] {
+    width: 89%;
+    padding: 16px 32px;
+    font-size: 16px;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: left;
+    color: white;
+    background: #CDA45E;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #0C0B09;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #1A1814;
+}
+
+.calc h3 {  
+  font: normal 200% arial, sans-serif;
+  text-shadow: 1px 1px #FFF;
+  padding: 15px 20px 5px 0;
+  color: #E5017D;
+  text-align:center;
+}
+
+.memoria {
+    width: 89%;
+    padding: 16px 32px;
+    font-size: 16px;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: left;
+    color: white;
+    background: #CDA45E;
+}
+
+.calc-modal-btn {
+  margin: 0 0 0 15px;
+  border: 2px solid #cda45e;
+  color: #fff;
+  background-color: #cda45e;
+  border-radius: 50px;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.calc-modal-btn:hover {
+  background: #fff;
+  color: #cda45e;
+}
+
+.modal-footer-cemter
+{
+  margin: 0 auto;
+  text-align: center;
+}
